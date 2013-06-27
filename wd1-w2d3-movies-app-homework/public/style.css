@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow);
+@import url(http://fonts.googleapis.com/css?family=Jura);
+
+body
+{
+  background-color: #F2E6CE;
+  padding: 25px;
+}
+
+section
+{
+  float: left;
+  margin-right: 20px;
+  font-family: 'Jura', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  width: 300px;
+}
+
+img
+{
+  border: 1px solid #261F1D;
+}
+
+header
+{
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+a
+{
+  color: #261F1D;
+  text-decoration: none;
+}
+
+input
+{
+  width: 250px;
+}
+
+form
+{
+  margin-bottom: 15px;
+}
