@@ -1,13 +1,19 @@
 <!doctype html>
 <html lang='en'>
-  <head>
-    <meta charset='utf-8'>
-    <link rel='stylesheet' href='/reset.css'>
-    <link rel='stylesheet' href='/style.css'>
-    <title>Stock</title>
-  </head>
-  <body>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='/reset.css'>
+  <link rel='stylesheet' href='/style.css'>
+  <title>Movies DB</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href='/'><%= 'Movie' %></a></li>
+      <li><a href='/movies'><%= 'Movie Posters' %></a></li>
+    </ul>
+  </header>
 
-    <%= yield %>
-  </body>
+  <%= yield %>
+</body>
 </html>
